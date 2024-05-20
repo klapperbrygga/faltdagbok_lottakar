@@ -85,7 +85,7 @@
                                 </div>
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-md'>
-                                    <article class="transcription">
+                                    <article class="body-2">
                                         <xsl:apply-templates/>                                      
                                     </article>
                                 </div>

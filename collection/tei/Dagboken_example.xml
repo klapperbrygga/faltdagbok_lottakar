@@ -19,17 +19,15 @@
          </titleStmt>
          <publicationStmt>
 
-            <publisher>Högskolan i Borås</publisher>
-            <date>2024</date>
             <authority>
                <persName>Sofia Larsson</persName>
                <persName>Katherine Knox Beler</persName>
                <persName>Malin Färdig</persName>
                <persName>Clara Berndes</persName>
                <note>Bilderna av den digitaliserade tjänstgöringsdagboken och tillhörande metadata
-                  har gjorts tillgängligt på nätet.
-                  inom ramen för en skoluppgift på Högskolan i Borås, och är därmed ingen
-                  kommersiell publicering.</note>
+                  har gjorts tillgängligt på nätet
+                  inom ramen för kursen Digitalisering för bevarande och tillgänglighet C3IDB1 B29V4 VT2024 på Borås Högskola.
+                  Det har inte förekommit någon kommersiell publicering.</note>
             </authority>
             <date>Maj 2024</date>
             <availability>
@@ -41,11 +39,11 @@
             <msDesc>
                <msIdentifier>
                   <institution>
+                     <name>
+                        <ref target="https://www.folkrorelsearkivet.se/">Folkrörelsearkivet i
+                           Västerbotten</ref>
+                     </name>
                      <address>
-                        <name>
-                           <ref target="https://www.folkrorelsearkivet.se/">Folkrörelsearkivet i
-                              Västerbotten</ref>
-                        </name>
                         <country>Sverige</country>
                         <settlement>Umeå</settlement>
                         <addrLine>Helena Elisabeths väg 3 Gammlia
@@ -168,8 +166,8 @@
             <moduleRef key="namesdates" />
             <!-- names, dates, people, and places -->
          </schemaSpec>
-         <geoDecl>  </geoDecl>
-         <fsdDecl> <fLib><f name="x"></f></fLib></fsdDecl>
+         <geoDecl datum="WGS84"></geoDecl>
+         
          <refsDecl><p></p></refsDecl>
       </encodingDesc>
       <profileDesc>
@@ -1731,8 +1729,7 @@
                   Stocksén</name>, <lb /><name type="person" ref="#L1"> Hanna Lindbladh</name>. <lb />
                   <hi
                      rend="u">Smörgåsberedning:</hi>
-            <name type="person" ref="#F2"> Aina Forsgren </name>
-                  , <lb />
+            <name type="person" ref="#F2">Aina Forsgren</name>, <lb />
             <name type="person" ref="#S7">Vera Stjernvall</name>, <name
                      type="person" ref="#M1"> Sigrid Malmlund </name>, <lb />
                      <name type="person"
@@ -1744,8 +1741,7 @@
                      ref="#B1"> Ester Berg</name>, <name
                      type="person" ref="#C1">Margit <lb />Carleborg</name>, <name type="person"
                      ref="#S3">
-                     Jenny Sundström</name>, <name type="person" ref="#P1"> Gusti <lb />Pettersson </name>
-                  , <name
+                     Jenny Sundström</name>, <name type="person" ref="#P1">Gusti <lb />Pettersson</name>, <name
                      type="person" ref="#H6">Rut Hellgren</name>, <name type="person" ref="#L2">
                   Thyra <lb />Lindvall </name>, <name type="person" ref="#F1">Gurli Forsberg</name>, <name
                      type="person" ref="#P2">Vilma <lb />Persson</name>, <name type="person"
@@ -1765,10 +1761,9 @@
                      type="person" ref="#L8">Astrid Lundgren</name> <lb />Smörgåsberedning:<name
                      type="person" ref="#F1">Gurli Forsberg</name>, <lb /><name type="person"
                      ref="#S1">
-                     Jenny Sundström</name>, <name type="person" ref="#F2"> Aina Forsgren<lb /></name>
-                  , <name
-                     type="person" ref="#L2"> Thyra Lindvall</name>, <name type="person" ref="#P1">
-                  Gusti Pettersson</name>, <lb /><name type="person" ref="#K1"> Greta Krikortz</name><lb /> 
+                     Jenny Sundström</name>, <name type="person" ref="#F2">Aina Forsgren<lb /></name>, <name
+                     type="person" ref="#L2">Thyra Lindvall</name>, <name type="person" ref="#P1">
+                  Gusti Pettersson</name>, <lb /><name type="person" ref="#K1">Greta Krikortz</name><lb /> 
             <hi
                      rend="u"> Tjänstgöringstid: 816 tim</hi> ¨</p>
             </div>

@@ -46,7 +46,7 @@
                <msIdentifier>
                   <institution>
                      <address>
-                        <name>
+                        <name ref="#arkiv">
                            <ref target="https://www.folkrorelsearkivet.se/">Folkrörelsearkivet i
                               Västerbotten</ref>
                         </name>
@@ -57,7 +57,7 @@
                      </address>
                   </institution>
                   <msName>
-                     <name> Fälttjänst U.S.L.K Oktober 1939—</name>
+                     <name>Fälttjänst U.S.L.K Oktober 1939— </name>
                   </msName>
                   <objectName>Tjänstgöringsdagbok</objectName>
                </msIdentifier>
@@ -101,24 +101,17 @@
                      folkrörelsearkivets besittning.</p>
                </history>
                <msContents>
-                  <summary>Lottornas arbete med
-                     flyktingmottagandet av finska barn hösten 1944. Samt en arbetsöversikt av
-                     lottornas samtliga aktiviteter under perioden 1/7 1944 - 30/6 1945
-                     Består av totalt 210 sidor
-                     inklusive tomma blad.
-                     Antal uppslag i dagboken: 105, varav tio transkriberats. Varje uppslag utgör
-                     två
-                     handskrivna sidor i dagboken vilket innebär att 17 sidor valts ut och
-                     transkriberats.
-                     Innehåller namn på lottor som tjänstgjorde under denna tid, samt platser och
-                     datum kopplade till detta.
+                  <summary> Tjänstgöringsdagbok som tillhört Umeå Lottakår. 
+                     Innehåller rapporter över lottornas arbete, namn på tjänstgörande lottor,
+                     samt platser och
+                     datum kopplade till deras arbete.
                   </summary>
                   <msItem>
-                     <incipit>Barnen kommo med båt till<lb /> 
+                     <incipit>Barnen kommo med båt till
                         <name type="place" ref="#holmsund">Holmsund</name>,</incipit>
                      <explicit>Tjänstgöringstid:
                         144 tim.</explicit>
-                        <colophon>Rapport till för att redogöra för lottakårens bistånd vid mottagandet och transporterna av finska flyktingbarn från september 1944, samt
+                        <colophon>Rapport till för att redogöra för lottakårens bistånd vid mottagandet och transporterna av finska flyktingbarn under hösten 1944, samt
                            notera namn på inblandade medlemmar, ansvarsuppgifter och antalet arbetstimmar. 
                         </colophon>
                   </msItem>
@@ -130,14 +123,14 @@
                      <explicit> Umeå i nov 1945
                      
                         Elisabet Nilson förplägnadschef.</explicit>
-                        <colophon>Summering av tidigare inlägg i tjänstgöringsdagboken 
-                           och uträkning av de sammanlagda timmarna av arbete som lottorna utfört tillsammans.</colophon>
+                        <colophon>Översikt av tidigare inlägg i tjänstgöringsdagboken under perioden 1/7 1944 - 30/6 1945,
+                           och uträkning av de sammanlagda timmarna av arbete som lottorna utfört.</colophon>
                   </msItem>
                </msContents>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      
+
       <encodingDesc>
          <projectDesc>
             <p>Bildfångst och transkribering av materialet är utfört inom ramen för kursen
@@ -150,16 +143,21 @@
                   target="https://github.com/SSLIS/DCHM-template"></ref></p>
             <p>Dagboken har skannats med upplösning på 300 dpi, 8-bit. Bilderna har sparats som
                TIFF-filer i enlighet med gängse standarder. </p>
+               <p> Antal uppslag i dagboken: 105, varav tio transkriberats. Varje uppslag utgör
+                  två
+                  handskrivna sidor i dagboken vilket innebär att 17 sidor valts ut och
+                  transkriberats.</p>
 
          </projectDesc>
          <samplingDecl>
-            <p> Främst delar av fältdagboken som berör mottagandet av finska flyktingbarn under
+            <p> Bildfångst har gjorts av delar av fältdagboken som berör mottagandet av finska flyktingbarn under
                hösten 1944. Valet av vad som ska inkluderas och transkriberas har gjorts utifrån vad
-               som ansetts relevant för Folkrörelsearkivet i Västerbotten Allt som allt består av
-               tio bilder som representerar ett uppslag vardera. Se <ref
+               som antagits vara relevant för det projekt som ska utföras av Folkrörelsearkivet i Västerbotten. 
+               Utifrån den tid som funnits har trankriptioner av tio uppslag utförts. 
+               De uppslag som redogjort för mottagandet av flyktingar i detalj, samt arbetsöversikten som ger en bild av lottakårens samtliga arbetsinsatser det året. 
+               Se <ref
                   target="https://github.com/klapperbrygga/faltdagbok_lottakar">
-                  guidelines-en.xml</ref> för tillgång till filer. Sidor kan också ha blivit
-               uteslutna om de repeterar information som redan står någon annanstans. </p>
+                  guidelines-en.xml</ref> för tillgång till filer. </p>
 
          </samplingDecl>
          <editorialDecl>
@@ -167,7 +165,7 @@
                <p>Där namnet på en person, plats eller organisation förekommit flera gånger har vi
                   utgått från att det refererar till samma individ eller sak. Även namn med mindre
                   stavningskillnader har tolkats som att de refererar till samma person eller sak.
-                  En lista på person, plats och organisationsnamn förekommer i <gi>offside</gi>. </p>
+                  En lista på person, plats och organisationsnamn förekommer i <gi>standOff</gi>. </p>
             </interpretation>
             <correction>
                <p> Stavfel i originalmanuskriptet har vi markerat med <gi>sic</gi> och inkluderat i
@@ -1347,16 +1345,20 @@
             <orgName type="voluntary">Umeå Lottakår</orgName>
             <ptr target="https://www.svenskalottakaren.se/lottakarer/umea-lottakar" />
             <note>
-               <p>Försvarsorganisation för kvinnor grundat 1924.
-                  Under tiden för andra världskriget bestod lottakåren av icke-beväpnade förband
+               <p>Gren av Svenska Lottakåren, försvarsorganisationen för kvinnor grundat 1924.
+                  Kårens syfte är att rekrytera och utbilda kvinnor till uppgifter inom det svenska totalförsvaret.
+                  Utbildade lottor har till uppgift att verka för ett tryggare samhälle genom förebyggande arbete i fredstid 
+                  och samhällsinsatser i kris- eller krigstid. 
+                  Organisationen är ideell och partipolitiskt obunden och medverkan är frivillig.
+                  </p>
+                  <p>Under tiden för andra världskriget bestod lottakåren av icke-beväpnade förband
                   som hade i uppdrag att bedriva olika former av hjälpsinsatser inom kommunen de var
                   verksamma.
                   Vanliga aktiviteter kunde vara att sköta utbespisningen vid militäriska övningar,
                   utbilda medlemmar i krisberedskap
                   och samla in pengar.</p>
-               <p>Under andra världskriget ökade antalet lottor markant och de blev för en tid
-                  därefter
-                  den enda sättet för kvinnor att kunna arbeta inom försvarsmakten</p>
+               <p>Under andra världskriget ökade antalet lottor markant, och detta var för en tid enda sättet för kvinnor att arbeta inom försvarsmakten</p>
+                  
             </note>
          </org>
          <org xml:id="orgK4">
@@ -1371,8 +1373,13 @@
             <orgName>Hjälpkommitten för Finlands barn</orgName>
             <ptr target="https://riksarkivet.se/motkallorna/hjalpkommitten-for-finlands-barn" />
          </org>
-         <org xml:id="hemvarn">
-            <orgName>Hemvärnet i Umeå</orgName>
+         <org xml:id="arkiv">
+            <orgName>Folkrörelsearkivet i VÄsterbotten</orgName>
+            <ptr target="https://www.folkrorelsearkivet.se/"></ptr>
+            <note> <p>Folkrörelsearkivet i Västerbotten är ett länsarkiv med uppgift att samla in och förvara handlingar från Västerbottens föreningar och folkrörelser. 
+               Material från cirka 9000 arkivarier förvaras på plats på 5000 hyllmeter, vilket gör arkivet till det största folkrörelse- och föreningsarkivet i Sverige. </p>
+              <p>Folkrörelsearkivet innehåller handlingar från de traditionella folkrörelserna; arbetar- och fackföreningsrörelsen, frikyrkorörelsen, idrotten, samverkans- och nykterhetsrörelsen, 
+               men också ett omfattande föreningsmaterial från områden med anknytning till folkbildning, kultur och fritid samt byarkiv, familje- och personarkiv. </p></note>
          </org>
       </listOrg>
    </standOff>
@@ -1977,8 +1984,7 @@
 
          <div type="6-14">
             <gap reason="sampling">
-               <desc>Beskriver händelser som repeteras i följande rapport,
-                  och skedde efter flyktingmottagandet under september 1944.</desc>
+               <desc>Uteslutna i mån av tid och p.g.a information som delvis upprepas i följande rapport.</desc>
             </gap>
          </div>
 

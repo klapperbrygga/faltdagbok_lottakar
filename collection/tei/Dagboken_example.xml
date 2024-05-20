@@ -108,7 +108,7 @@
                   </summary>
                   <msItem>
                      <incipit>Barnen kommo med båt till
-                        <name type="place" ref="#holmsund">Holmsund</name>,</incipit>
+                        Holmsund,</incipit>
                      <explicit>Tjänstgöringstid:
                         144 tim.</explicit>
                         <colophon>Rapport till för att redogöra för lottakårens bistånd vid mottagandet och transporterna av finska flyktingbarn under hösten 1944, samt
@@ -155,9 +155,7 @@
                som antagits vara relevant för det projekt som ska utföras av Folkrörelsearkivet i Västerbotten. 
                Utifrån den tid som funnits har trankriptioner av tio uppslag utförts. 
                De uppslag som redogjort för mottagandet av flyktingar i detalj, samt arbetsöversikten som ger en bild av lottakårens samtliga arbetsinsatser det året. 
-               Se <ref
-                  target="https://github.com/klapperbrygga/faltdagbok_lottakar">
-                  guidelines-en.xml</ref> för tillgång till filer. </p>
+            </p>
 
          </samplingDecl>
          <editorialDecl>
@@ -1345,19 +1343,19 @@
             <orgName type="voluntary">Umeå Lottakår</orgName>
             <ptr target="https://www.svenskalottakaren.se/lottakarer/umea-lottakar" />
             <note>
-               <p>Gren av Svenska Lottakåren, försvarsorganisationen för kvinnor grundat 1924.
+               <p>Försvarsorganisationen för kvinnor grundat 1924.
                   Kårens syfte är att rekrytera och utbilda kvinnor till uppgifter inom det svenska totalförsvaret.
                   Utbildade lottor har till uppgift att verka för ett tryggare samhälle genom förebyggande arbete i fredstid 
                   och samhällsinsatser i kris- eller krigstid. 
                   Organisationen är ideell och partipolitiskt obunden och medverkan är frivillig.
                   </p>
-                  <p>Under tiden för andra världskriget bestod lottakåren av icke-beväpnade förband
-                  som hade i uppdrag att bedriva olika former av hjälpsinsatser inom kommunen de var
-                  verksamma.
-                  Vanliga aktiviteter kunde vara att sköta utbespisningen vid militäriska övningar,
+                  <p>Vid tiden för andra världskriget bestod lottakåren av icke-beväpnade förband
+                  som ägnade sig åt diverse hjälpsinsatser inom kommunerna de var
+                  verksamma i.
+                  Vanliga uppgifter kunde vara att sköta utbespisningen vid militäriska övningar,
                   utbilda medlemmar i krisberedskap
-                  och samla in pengar.</p>
-               <p>Under andra världskriget ökade antalet lottor markant, och detta var för en tid enda sättet för kvinnor att arbeta inom försvarsmakten</p>
+                  och samla in pengar. Antalet lottor ökade markant under krigsåren, och kåren blev för en tid framåt enda sättet för kvinnor att arbeta inom försvarsmakten.
+                  </p>
                   
             </note>
          </org>

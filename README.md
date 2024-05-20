@@ -7,4 +7,4 @@ This is a digitisation project for the course Digitization for preservation and 
 Visit https://github.com/klapperbrygga/faltdagbok_lottakar if you want to see what the published version of this repository looks like.
 
 ## About the participants of the project 
-Clara Berndes, Sofia Larsson, Katherine Knox Beler, Malin Färdig who attend the course Digitalisering för tillgänglighet och bevarande at the University of Borås spring 2024. 
+Clara Berndes, Katherine Knox Beler, Malin Färdig & Sofia Larsson who attended the course Digitization for preservation and accessability at the University of Borås spring 2024. 

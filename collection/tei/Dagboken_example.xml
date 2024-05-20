@@ -122,9 +122,9 @@
                   person, plats och organisationsnamn förekommer i ett <gi>offside</gi>segment. </p>
             </interpretation>
             <correction>
-               <p> Stavfel i orginalmanuskriptet har vi markerat med <gi>sic</gi> och inkluderat i
+               <p> Stavfel i originalmanuskriptet har vi markerat med <gi>sic</gi> och inkluderat i
                   ett <gi>choice</gi>element tillsammans med transkriberarens rättning <gi>corr</gi>.
-                  Där transkriberaren lagt till ett ord som saknats i orginalmanuskripetet har <gi>
+                  Där transkriberaren lagt till ett ord som saknats i originalmanuskriptet har <gi>
                   choice</gi> använts tillsammans med <gi>supplement</gi>. <gi>unclear</gi> har
                   använts där orginaltexten av olika anledningar varit svår att uttyda. <gi>choice</gi>
                   och <gi>supplement</gi> har i de fallen använts för att presentera ett eller flera
@@ -133,7 +133,7 @@
             <normalization>
                <p> Transkriberingen har gjorts med dagboken som källunderlag. I möjligaste mån har
                   eventuella stav- eller slarvfel. Dessa är markerade med <gi>sic</gi> Välkända
-                  abbrivationer för timmar och månader har bevarats utan markering. </p>
+                  förkortningar för timmar och månader har bevarats utan markering. </p>
             </normalization>
             <segmentation>
                <p> Sektioner av texten anges genom <gi>div</gi> med <gi>type</gi> attributet
@@ -177,9 +177,9 @@
       <profileDesc>
          <abstract>
             <p>Redogörelse för Umeå Lottakårs arbete åren 1939-1945. 
-               Innehåller blant annat redogörelser för lottornas insatser under mottagandet av finska flyktingbarn i Umeå under andra världskriget.</p>
+               Innehåller bland annat redogörelser för lottornas insatser under mottagandet av finska flyktingbarn i Umeå under andra världskriget.</p>
          </abstract>
-         <creation> <settlement>Umeå</settlement><origDate>Skriven kontenuerligt från 1939-45</origDate></creation>
+         <creation> <settlement>Umeå</settlement><origDate>Skriven kontinuerligt från 1939-45</origDate></creation>
          <settingDesc><p></p></settingDesc>
          <particDesc><p></p></particDesc>
          <textClass></textClass>
@@ -1192,7 +1192,7 @@
             </persName>
             <affiliation>Umeå lottakår</affiliation>
             <note>Uppgifter inom kåren: tåglotta, köksarbetare, utspisningslotta, tjänstgöring vid
-               K4, tjänstgöring vid evakueringslägr i <placeName ref="#bolea">Böleå-Teg</placeName></note>
+               K4, tjänstgöring vid evakueringslägret i <placeName ref="#bolea">Böleå-Teg</placeName></note>
             <birth notAfter="1939"></birth>
             <sex>Kvinna</sex>
          </person>
@@ -1225,7 +1225,7 @@
                <geo>63°49 42″N 20°16 14″Ö</geo>
             </location>
             <ptr target="https://sv.wikipedia.org/wiki/Umeå"></ptr>
-            <note>Tätort i Västrebotten. Beläget vid Umeälven.</note>
+            <note>Tätort i Västerbotten. Beläget vid Umeälven.</note>
          </place>
          <place xml:id="vannas" type="village">
             <settlement>Vännäs</settlement>
@@ -1240,7 +1240,7 @@
                <geo>63°42 1″N 20°21 9″Ö</geo>
             </location>
             <ptr target="https://umealvdal.se/besoksomraden/holmsund/holmsundshistorik/" />
-            <note>Hamnsamhälle vid Umälvens mynning. Idag en tätort i Umeå kommun.
+            <note>Hamnsamhälle vid Umeälvens mynning. Idag en tätort i Umeå kommun.
                Från 1920-talet fungerade det som Umeås hamn.</note>
          </place>
          <place xml:id="bolea" type="city">

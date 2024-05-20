@@ -65,7 +65,9 @@
                         <abbr>
                            U.S.L.K
                         </abbr>Tjänstgöringsdagbok
-                        från Folkrörelsearkivet i Västerbotten. Mått: 17x20,5 cm och 1,2 cm tjock.</p>
+                        från Folkrörelsearkivet i Västerbotten. 
+                        Består av totalt 210 sidor
+                        inklusive tomma blad. Mått: 17x20,5 cm och 1,2 cm tjock.</p>
                   </objectDesc>
                </physDesc>
                <msContents>
@@ -79,7 +81,8 @@
                      handskrivna sidor i dagboken vilket innebär att 17 sidor valts ut och
                      transkriberats.
                      Innehåller namn på lottor som tjänstgjorde under denna tid, samt platser och
-                     datum kopplade till detta.</summary>
+                     datum kopplade till detta.
+                     </summary>
                   <msItem n="1">
                      <p>
                         <locus>
@@ -144,7 +147,7 @@
                </p>
             </segmentation>
             <hyphenation>
-               <p> I orginalmanuskriptet förekommer både talstreck i samband med att ett ord bryts
+               <p> I originalmanuskriptet förekommer både talstreck i samband med att ett ord bryts
                   vid radbrytningar och bindestreck mellan namn. Streck används också för att
                   beteckna mängder. Vi har valt att behålla båda tecknen, och beteckna genom <gi>lb</gi>
                   om talstrecket finns där på grund av radbrytning. </p>

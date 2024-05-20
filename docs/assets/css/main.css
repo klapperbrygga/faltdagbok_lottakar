@@ -38,10 +38,6 @@ h4 {
     
 }
 
-p {
-    page-break-after: avoid; page-break-before: avoid;
-    
-}
 
 #details {
     padding: 2vw;

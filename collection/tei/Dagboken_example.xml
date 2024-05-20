@@ -94,8 +94,9 @@
       <xenoData>metadata som inte är TEI om vi vill ha med det här.</xenoData>
       <encodingDesc>
          <projectDesc>
-            <p>Bildfångst av material gjort inom ramen för en kurs i digitalisering på
-               masterprogrammet i biblioteks- och informationsvetenskap vid Högskolan i Borås.
+            <p>Bildfångst och transkribering av materialet är utfört inom ramen för kursen 
+               Digitalisering för bevarande och tillgänglighet på
+               masterprogrammet i biblioteks- och informationsvetenskap vid Högskolan i Borås våren 2024.
                Bilderna ska också användas till ett projekt organiserat av hembygdsföreningen i
                Umeå, med mål att belysa och informera om flyktingmottagandet under andra
                världskriget. Till detta ända mål har vi fått nygga en webbplats med hjälp av
@@ -107,9 +108,9 @@
          </projectDesc>
          <samplingDecl>
             <p> Främst delar av fältdagboken som berör mottagandet av finska flyktingbarn under
-               hösten 1944. Urvalet har gjorts utifrån vad som ansetts relevant för projektet
-               planerat av hembygdsföreningen i Umeå, och består av tio bilder som representerar ett
-               uppslag vardera. Se <ref target="https://github.com/klapperbrygga/mall">
+               hösten 1944. Valet av vad som ska inkluderas och transkriberas har gjorts utifrån vad som ansetts relevant för Folkrörelsearkivet i Västerbotten
+               Allt som allt  består av tio bilder som representerar ett
+               uppslag vardera. Se <ref target="https://github.com/klapperbrygga/faltdagbok_lottakar">
                guidelines-en.xml</ref> för tillgång till filer. Sidor kan också ha blivit uteslutna
                om de repeterar information som redan står någon annanstans. </p>
 
@@ -118,8 +119,8 @@
             <interpretation>
                <p>Där namnet på en person, plats eller organisation förekommit flera gånger har vi
                   utgått från att det refererar till samma individ eller sak. Även namn med mindre
-                  stavningskillnader har tolkats som att de refererar till samma. En lista på
-                  person, plats och organisationsnamn förekommer i ett <gi>offside</gi>segment. </p>
+                  stavningskillnader har tolkats som att de refererar till samma person eller sak. En lista på
+                  person, plats och organisationsnamn förekommer i <gi>offside</gi>. </p>
             </interpretation>
             <correction>
                <p> Stavfel i originalmanuskriptet har vi markerat med <gi>sic</gi> och inkluderat i
@@ -132,11 +133,11 @@
             </correction>
             <normalization>
                <p> Transkriberingen har gjorts med dagboken som källunderlag. I möjligaste mån har
-                  eventuella stav- eller slarvfel. Dessa är markerade med <gi>sic</gi> Välkända
+                  eventuella stav- eller slarvfel bevarats. Dessa är markerade med <gi>sic</gi> Välkända
                   förkortningar för timmar och månader har bevarats utan markering. </p>
             </normalization>
             <segmentation>
-               <p> Sektioner av texten anges genom <gi>div</gi> med <gi>type</gi> attributet
+               <p> Enskilda inlägg i dagboken anges genom <gi>div</gi> med <gi>type</gi> attributet
                   "rapport". Olika uppslag anges genom <gi>div</gi> med <gi>type</gi> attributet
                   "page". I bildfilerna avgränsas stycken med tom rad, detta anges här med <gi>p</gi>.
                   Radbrytningar markeras med <gi>lb</gi> och understrukningar av text med <gi>hi</gi>
@@ -145,9 +146,9 @@
             </segmentation>
             <hyphenation>
                <p> I orginalmanuskriptet förekommer både talstreck i samband med att ett ord bryts
-                  vid radbrytningar och bindestreck mellan namn. Streck används också för att
-                  beteckna mängder. Vi har valt att behålla båda tecknen, och beteckna genom <gi>lb</gi>
-                  om talstrecket finns där på grund av radbrytning. </p>
+                  vid radbrytningar och bindestreck mellan namn. Streck används också mellan datum, mängder eller i vissa fraser som t.ex. in- och ut... 
+                  Vi har valt att behålla samtliga tecknen, och låta <gi>lb</gi> beteckna
+                  om talstrecket finns där på grund av en radbrytning. </p>
             </hyphenation>
             <punctuation> <p> I den mån det varit möjligt motsvarar förekomsten eller avsaknaden av punkt eller komma, det i originalmanuskriptet. </p></punctuation>
          </editorialDecl>
@@ -170,9 +171,7 @@
             <moduleRef key="namesdates" />
             <!-- names, dates, people, and places -->
          </schemaSpec>
-         <geoDecl>  </geoDecl>
-         <fsdDecl> <fLib><f name="x"></f></fLib></fsdDecl>
-         <refsDecl><p></p></refsDecl>
+         <geoDecl datum="WGS84"></geoDecl>
       </encodingDesc>
       <profileDesc>
          <abstract>

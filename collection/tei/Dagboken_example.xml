@@ -20,7 +20,9 @@
          <publicationStmt>
             <publisher>
                <name>Clara Berndes</name>
-               <name>Katherine Knox Beler</name> <name>Malin Färdig</name> <name>Sofia Larsson</name>
+               <name>Katherine Knox Beler</name>
+               <name>Malin Färdig</name>
+               <name>Sofia Larsson</name>
             </publisher>
             <date>2024</date>
             <authority>
@@ -61,15 +63,43 @@
                </msIdentifier>
                <physDesc>
                   <objectDesc>
-                     <p>
-                        <abbr>
-                           U.S.L.K
-                        </abbr>Tjänstgöringsdagbok
-                        från Folkrörelsearkivet i Västerbotten. 
-                        Består av totalt 210 sidor
-                        inklusive tomma blad. Mått: 17x20,5 cm och 1,2 cm tjock.</p>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Papper</material>
+                           </p>
+                        </support>
+                        <extent>Består av totalt 210 sidor inklusive tomma blad.<dimensions
+                              unit="cm">
+                              <height>20,5</height>
+                              <width>17</width>
+                              <depth>1,2</depth>
+                           </dimensions>
+                        </extent>
+                        <condition>Lätt genomblödning och gulning av sidorna.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ruledLines="23" columns="1"></layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <handDesc>
+                  
+                     <handNote>
+                        <persName ref="#N2"> Elisabet Nilson</persName>
+                     </handNote>
+                  
+               </handDesc>
+                  <bindingDesc>
+                     <p></p>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <p>Tjänstgöringsdagboken användes kontinuerligt i samband med lottakårens
+                     aktiviteter från början
+                     på arbetsåret 1939-40 till sista inlägget i slutet på arbetsåret 1944-45.
+                     Tillsammans med lottakårens andra tjänstgöringsdagböcker har den sedan kommit i
+                     folkrörelsearkivets besittning.</p>
+               </history>
                <msContents>
                   <summary>Lottornas arbete med
                      flyktingmottagandet av finska barn hösten 1944. Samt en arbetsöversikt av
@@ -82,28 +112,41 @@
                      transkriberats.
                      Innehåller namn på lottor som tjänstgjorde under denna tid, samt platser och
                      datum kopplade till detta.
-                     </summary>
-                  <msItem n="1">
-                     <p>
-                        <locus>
-
-                        </locus>
-                     </p>
+                  </summary>
+                  <msItem>
+                     <incipit>Barnen kommo med båt till<lb /> 
+                        <name type="place" ref="#holmsund">Holmsund</name>,</incipit>
+                     <explicit>Tjänstgöringstid:
+                        144 tim.</explicit>
+                        <colophon>Rapport till för att redogöra för lottakårens bistånd vid mottagandet och transporterna av finska flyktingbarn från september 1944, samt
+                           notera namn på inblandade medlemmar, ansvarsuppgifter och antalet arbetstimmar. 
+                        </colophon>
+                  </msItem>
+                  <msItem>
+                     <author><persName ref="#N2"> Elisabet Nilson </persName></author>
+                     <rubric>Översikt av arbetsåret 1/7 1944 - 30/6 1945</rubric>
+                     <incipit>Första delen av det gångna arbetsåret har varit rätt be- tungande
+                        för medlemmarna i Umeå Lottakår.</incipit>
+                     <explicit> Umeå i nov 1945
+                     
+                        Elisabet Nilson förplägnadschef.</explicit>
+                        <colophon>Summering av tidigare inlägg i tjänstgöringsdagboken 
+                           och uträkning av de sammanlagda timmarna av arbete som lottorna utfört tillsammans.</colophon>
                   </msItem>
                </msContents>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <xenoData>metadata som inte är TEI om vi vill ha med det här.</xenoData>
+      
       <encodingDesc>
          <projectDesc>
-            <p>Bildfångst och transkribering av materialet är utfört inom ramen för kursen 
-               Digitalisering för bevarande och tillgänglighet på
-               masterprogrammet i biblioteks- och informationsvetenskap vid Högskolan i Borås våren 2024.
-               Bilderna ska också användas till ett projekt organiserat av hembygdsföreningen i
-               Umeå, med mål att belysa och informera om flyktingmottagandet under andra
-               världskriget. Till detta ända mål har vi fått nygga en webbplats med hjälp av
-               xsl-stylesheets konstruerade av våra lärare Wout Dillens och Mikael Gunnarsson: <ref
+            <p>Bildfångst och transkribering av materialet är utfört inom ramen för kursen
+               Digitalisering för bevarande och tillgänglighet på masterprogrammet i biblioteks- och
+               informationsvetenskap vid Högskolan i Borås våren 2024. Bilderna ska också användas
+               till ett projekt organiserat av hembygdsföreningen i Umeå, med mål att belysa och
+               informera om flyktingmottagandet under andra världskriget. Till detta ända mål har vi
+               fått nygga en webbplats med hjälp av xsl-stylesheets konstruerade av våra lärare Wout
+               Dillens och Mikael Gunnarsson: <ref
                   target="https://github.com/SSLIS/DCHM-template"></ref></p>
             <p>Dagboken har skannats med upplösning på 300 dpi, 8-bit. Bilderna har sparats som
                TIFF-filer i enlighet med gängse standarder. </p>
@@ -111,19 +154,20 @@
          </projectDesc>
          <samplingDecl>
             <p> Främst delar av fältdagboken som berör mottagandet av finska flyktingbarn under
-               hösten 1944. Valet av vad som ska inkluderas och transkriberas har gjorts utifrån vad som ansetts relevant för Folkrörelsearkivet i Västerbotten
-               Allt som allt  består av tio bilder som representerar ett
-               uppslag vardera. Se <ref target="https://github.com/klapperbrygga/faltdagbok_lottakar">
-               guidelines-en.xml</ref> för tillgång till filer. Sidor kan också ha blivit uteslutna
-               om de repeterar information som redan står någon annanstans. </p>
+               hösten 1944. Valet av vad som ska inkluderas och transkriberas har gjorts utifrån vad
+               som ansetts relevant för Folkrörelsearkivet i Västerbotten Allt som allt består av
+               tio bilder som representerar ett uppslag vardera. Se <ref
+                  target="https://github.com/klapperbrygga/faltdagbok_lottakar">
+                  guidelines-en.xml</ref> för tillgång till filer. Sidor kan också ha blivit
+               uteslutna om de repeterar information som redan står någon annanstans. </p>
 
          </samplingDecl>
          <editorialDecl>
             <interpretation>
                <p>Där namnet på en person, plats eller organisation förekommit flera gånger har vi
                   utgått från att det refererar till samma individ eller sak. Även namn med mindre
-                  stavningskillnader har tolkats som att de refererar till samma person eller sak. En lista på
-                  person, plats och organisationsnamn förekommer i <gi>offside</gi>. </p>
+                  stavningskillnader har tolkats som att de refererar till samma person eller sak.
+                  En lista på person, plats och organisationsnamn förekommer i <gi>offside</gi>. </p>
             </interpretation>
             <correction>
                <p> Stavfel i originalmanuskriptet har vi markerat med <gi>sic</gi> och inkluderat i
@@ -136,8 +180,8 @@
             </correction>
             <normalization>
                <p> Transkriberingen har gjorts med dagboken som källunderlag. I möjligaste mån har
-                  eventuella stav- eller slarvfel bevarats. Dessa är markerade med <gi>sic</gi> Välkända
-                  förkortningar för timmar och månader har bevarats utan markering. </p>
+                  eventuella stav- eller slarvfel bevarats. Dessa är markerade med <gi>sic</gi>
+                  Välkända förkortningar för timmar och månader har bevarats utan markering. </p>
             </normalization>
             <segmentation>
                <p> Enskilda inlägg i dagboken anges genom <gi>div</gi> med <gi>type</gi> attributet
@@ -149,11 +193,15 @@
             </segmentation>
             <hyphenation>
                <p> I orginalmanuskriptet förekommer både talstreck i samband med att ett ord bryts
-                  vid radbrytningar och bindestreck mellan namn. Streck används också mellan datum, mängder eller i vissa fraser som t.ex. in- och ut... 
-                  Vi har valt att behålla samtliga tecknen, och låta <gi>lb</gi> beteckna
-                  om talstrecket finns där på grund av en radbrytning. </p>
+                  vid radbrytningar och bindestreck mellan namn. Streck används också mellan datum,
+                  mängder eller i vissa fraser som t.ex. in- och ut... Vi har valt att behålla
+                  samtliga tecknen, och låta <gi>lb</gi> beteckna om talstrecket finns där på grund
+                  av en radbrytning. </p>
             </hyphenation>
-            <punctuation> <p> I den mån det varit möjligt motsvarar förekomsten eller avsaknaden av punkt eller komma, det i originalmanuskriptet. </p></punctuation>
+            <punctuation>
+               <p> I den mån det varit möjligt motsvarar förekomsten eller avsaknaden av punkt eller
+                  komma, det i originalmanuskriptet. </p>
+            </punctuation>
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -178,12 +226,19 @@
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p>Redogörelse för Umeå Lottakårs arbete åren 1939-1945. 
-               Innehåller bland annat redogörelser för lottornas insatser under mottagandet av finska flyktingbarn i Umeå under andra världskriget.</p>
+            <p>Redogörelse för Umeå Lottakårs arbete åren 1939-1945.
+               Innehåller bland annat redogörelser för lottornas insatser under mottagandet av
+               finska flyktingbarn i Umeå under andra världskriget.</p>
          </abstract>
-         <creation> <settlement>Umeå</settlement><origDate>Skriven kontinuerligt från 1939-45</origDate></creation>
-         <settingDesc><p></p></settingDesc>
-         <particDesc><p></p></particDesc>
+         <creation>
+            <settlement>Umeå</settlement>
+         </creation>
+         <settingDesc>
+            <p></p>
+         </settingDesc>
+         <particDesc>
+            <p></p>
+         </particDesc>
          <textClass></textClass>
          <langUsage>
             <language ident="swe">Svenska</language>
@@ -193,13 +248,6 @@
                <p>Gregorianska kalendern</p>
             </calendar>
          </calendarDesc>
-         <textClass>
-         </textClass>
-         <handNotes>
-            <handNote>
-               <name type="person" ref="#N2"> Elisabet Nilson</name>
-            </handNote>
-         </handNotes>
       </profileDesc>
       <xenoData></xenoData>
    </teiHeader>
@@ -1403,7 +1451,7 @@
       <surface xml:id="sida_091">
          <figure>
             <figDesc>
-               Bl.a tjänstgöring vid K4 och evakueringsläger. 
+               Bl.a tjänstgöring vid K4 och evakueringsläger.
             </figDesc>
             <graphic url="assets/img/documents/sida_091.jpg"> </graphic>
             <graphic url="../collection/img/sida_091.tiff"></graphic>
@@ -1412,7 +1460,7 @@
       <surface xml:id="sida_092">
          <figure>
             <figDesc>
-               B.la tjänstgöring vid K4 och evakueringsläger. 
+               B.la tjänstgöring vid K4 och evakueringsläger.
             </figDesc>
             <graphic url="assets/img/documents/sida_092.jpg"> </graphic>
             <graphic url="../collection/img/sida_092.tiff"></graphic>
@@ -1421,7 +1469,7 @@
       <surface xml:id="sida_093">
          <figure>
             <figDesc>
-               B.la tjänstgöring vid K4 och evakueringsläger. 
+               B.la tjänstgöring vid K4 och evakueringsläger.
             </figDesc>
             <graphic url="assets/img/documents/sida_093.jpg"> </graphic>
             <graphic url="../collection/img/sida_093.tiff"></graphic>
@@ -1429,7 +1477,7 @@
       </surface>
       <surface xml:id="sida_094">
          <figure>
-            <figDesc>       
+            <figDesc>
             </figDesc>
             <graphic url="assets/img/documents/sida_094.jpg"> </graphic>
             <graphic url="../collection/img/sida_094.tiff"></graphic>
@@ -1438,7 +1486,7 @@
       <surface xml:id="sida_095">
          <figure>
             <figDesc>
-               
+
             </figDesc>
             <graphic url="assets/img/documents/sida_095.jpg"> </graphic>
             <graphic url="../collection/img/sida_095.tiff"></graphic>
@@ -1446,7 +1494,7 @@
       </surface>
       <surface xml:id="sida_096">
          <figure>
-            <figDesc>      
+            <figDesc>
             </figDesc>
             <graphic url="assets/img/documents/sida_096.jpg"> </graphic>
             <graphic url="../collection/img/sida_096.tiff"></graphic>
@@ -1455,7 +1503,7 @@
       <surface xml:id="sida_097">
          <figure>
             <figDesc>
-               
+
             </figDesc>
             <graphic url="assets/img/documents/sida_097.jpg"> </graphic>
             <graphic url="../collection/img/sida_097.tiff"></graphic>
@@ -1464,7 +1512,7 @@
       <surface xml:id="sida_098_dans">
          <figure>
             <figDesc>
-               
+
             </figDesc>
             <graphic url="assets/img/documents/sida_098_dans.jpg"> </graphic>
             <graphic url="../collection/img/sida_098.tiff"></graphic>

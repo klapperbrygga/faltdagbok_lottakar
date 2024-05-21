@@ -31,10 +31,13 @@ h3 {
     
 }
 
-h4 {
-    font-weight: bold;
-    padding: 1vw;
-    text-align: left;
+.resa {
+  font-size: 1.5vw;
+  margin-top: 1em;
+  margin-bottom: .0;
+  margin-left: 0;
+  margin-right: 0;
+    text-align: left; text-decoration: underline; 
     
 }
 
@@ -112,3 +115,7 @@ text-indent: 2vw;
 	font-size: 1vw;
   width: 100%;
 	}
+
+    .under {
+         text-underline-position: below;
+    }

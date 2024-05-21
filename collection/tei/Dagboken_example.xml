@@ -1117,7 +1117,7 @@
             <birth notAfter="1939"></birth>
             <sex>Kvinna</sex>
          </person>
-         <person xml:id="S15">
+         <person xml:id="S14">
             <persName>
                <forename>Margareta</forename>
                <surname>Svensson</surname>
@@ -1127,7 +1127,7 @@
             <birth notAfter="1939"></birth>
             <sex>Kvinna</sex>
          </person>
-         <person xml:id="S16">
+         <person xml:id="S15">
             <persName>
                <forename>Elna</forename>
                <surname>Swahn</surname>
@@ -1940,7 +1940,7 @@
                      Nilson</name><lb /> 
              <hi rend="u">V. chef:</hi> <name type="person" ref="#L9">Ingrid
                   Lundström</name><lb /> 
-             <name type="person" ref="#S15">Margareta Svensson</name><lb /> 
+             <name type="person" ref="#S14">Margareta Svensson</name><lb /> 
              <hi
                      rend="u"> Tåglottor:</hi> <name type="person" ref="#M3">Elsa Modig</name><lb />
              <hi
@@ -1990,7 +1990,7 @@
                      type="person"
                      ref="#B2">Hilma Berg</name>, <name type="person" ref="#L13">Sally Lundin</name>
                   ,
-                   <name type="person" ref="#S16">Elna <lb />Swahn</name>, <name
+                   <name type="person" ref="#S15">Elna <lb />Swahn</name>, <name
                      type="person" ref="#B10">Tekla Bengtsson</name>, <name type="person" ref="#J1">
                   Sigrid <lb />Jonsson</name>, <name type="person" ref="#B1">Ester Berg</name>, <name
                      type="person" ref="#S6">Siv Strandberg</name> 

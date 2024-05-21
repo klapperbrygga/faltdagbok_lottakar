@@ -28,8 +28,7 @@
                <persName>Malin Färdig</persName>
                <persName>Clara Berndes</persName>
                <note>Bilderna av den digitaliserade tjänstgöringsdagboken och tillhörande metadata
-                  har gjorts tillgängligt på nätet.
-                  inom ramen för en skoluppgift på Högskolan i Borås, och är därmed ingen
+                  har gjorts tillgängligt på nätet inom ramen för en skoluppgift på Högskolan i Borås, och är därmed ingen
                   kommersiell publicering.</note>
             </authority>
             <date>Maj 2024</date>
@@ -141,7 +140,7 @@
                till ett projekt organiserat av hembygdsföreningen i Umeå, med mål att belysa och
                informera om flyktingmottagandet under andra världskriget. Till detta ända mål har vi
                fått nygga en webbplats med hjälp av xsl-stylesheets konstruerade av våra lärare Wout
-               Dillens och Mikael Gunnarsson: <ref
+               Dillen och Mikael Gunnarsson: <ref
                   target="https://github.com/SSLIS/DCHM-template"></ref></p>
             <p>Dagboken har skannats med upplösning på 300 dpi, 8-bit. Bilderna har sparats som
                TIFF-filer i enlighet med gängse standarder. </p>
@@ -1874,7 +1873,7 @@
             <hi rend="u">Smörgåsberedning:</hi> <name type="person" ref="#A3">Märta
                   Almqvist</name>, <name type="person" ref="#S8">Märta Sundqvist</name>, <name
                      type="person" ref="#J1"> Sigrid Jonsson</name>, <name type="person" ref="#F2">
-                  Aina Forsgren <lb /></name>, <name type="person" ref="#J3">Anna-Greta Johans <lb />
+                  Aina Forsgren <lb /></name>, <name type="person" ref="#J3">Anna- Johans <lb />
                   son</name>, <name
                      type="person" ref="#B8">Gudrun Beckman</name>, <name type="person" ref="#B4">Göta
                   Beckman</name>. <hi rend="u">Tjänstgöringstid: 410 tim.</hi> 

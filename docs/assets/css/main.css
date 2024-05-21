@@ -54,6 +54,10 @@ footer {
     margin-top: 1vw;
 }
 
+a {
+    color: black;
+  }
+
 .copyright {
     width: 50%;
     margin: auto;
@@ -116,8 +120,15 @@ text-indent: 2vw;
   width: 100%;
 	}
 
+    .rubrik {
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  text-decoration: underline;
+  text-align: center;
+        }
     
-    a {
-  color: black;
-}
+  
 

@@ -73,7 +73,7 @@
                                     <article id="details">
                                       <p>
                                         <strong>Author:</strong><br/>
-                                        <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
+                                        <xsl:apply-templates select="//tei:titleStmt/tei:funder"/>
                                       </p>
                                       <p>
                                         <strong>Transcription by:</strong><br/>

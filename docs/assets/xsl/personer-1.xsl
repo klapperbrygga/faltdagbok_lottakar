@@ -63,22 +63,6 @@
                             </div>  
                         </xsl:for-each>
 
-
-                    <xsl:for-each select="//tei:listOrg/tei:orgName">
-                        <div class="row">
-                            <div class="col-sm">
-                                <p>
-                                    <xsl:value-of select="tei:orgName"/><xsl:text> </xsl:text>
-                                <xsl:value-of select="tei:ptr"/></p>
-                                
-                            </div>
-                            <div class="col-sm">
-                                <p><xsl:value-of select="tei:note"/><xsl:text> </xsl:text><br/>
-                                    </p>
-                            </div>
-                        </div>  
-                    </xsl:for-each>
-
                     </div>
                 
                 </main>

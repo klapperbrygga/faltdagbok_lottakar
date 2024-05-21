@@ -1,16 +1,18 @@
-
-
 body {
-	padding: 1vw;
-	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
-	line-height: 1.25;
-	font-size: 1vw;
-  width: 100%; 
-  
-	}
-  
+    padding: 1vw;
+    font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia,serif';
+    line-height: 1.25;
+    font-size: 1vw;
+    width: 100%;
 
-h1, h2, h3, nav, footer {
+}
+
+
+h1,
+h2,
+h3,
+nav,
+footer {
     text-align: center;
 }
 
@@ -22,21 +24,23 @@ nav {
 }
 
 h2 {
-    padding: 1vw; text-decoration: underline; text-align: center;
+    padding: 1vw;
+    text-decoration: underline;
+    text-align: center;
 }
 
 h3 {
     font-weight: bold;
     padding: 1vw;
-    
-    
+
+
 }
 
 
 #details {
     padding: 2vw;
     margin: 1vw;
-    text-align: center;    
+    text-align: center;
 }
 
 footer {
@@ -47,21 +51,22 @@ footer {
 
 a {
     color: black;
-  }
+}
 
 .copyright {
     width: 50%;
     margin: auto;
 }
 
-.copyright_logos, .copyright_text {
+.copyright_logos,
+.copyright_text {
     display: inline;
 }
 
 .copyright_logo {
-		width: 1vw;
-		margin:.15vw;
-	}
+    width: 1vw;
+    margin: .15vw;
+}
 
 .row {
     padding: 1vw;
@@ -73,7 +78,8 @@ a {
 }
 
 #relativ {
-    display: flex; position: relative; 
+    display: flex;
+    position: relative;
 }
 
 .thumbnail {
@@ -83,12 +89,13 @@ a {
 }
 
 .indrag {
-text-indent: 2vw; 
+    text-indent: 2vw;
 }
 
 
 .hoger {
-     float: right; font-style: italic;
+    float: right;
+    font-style: italic;
 }
 
 .img-full {
@@ -104,35 +111,34 @@ text-indent: 2vw;
 }
 
 .body-2 {
-	padding: 1vw;
-	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
-	line-height: 2;
-	font-size: 1vw;
-  width: 100%;
-	}
+    padding: 1vw;
+    font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia,serif';
+    line-height: 2;
+    font-size: 1vw;
+    width: 100%;
+}
 
-    .rubrik {
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  text-decoration: underline;
-  text-align: center;
+.rubrik {
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: underline;
+    text-align: center;
 
 }
 
 .resa {
-  font-size: 1.5vw;
-  margin-top: 1em;
-  margin-bottom: .0;
-  margin-left: 0;
-  margin-right: 0;
-    text-align: left; text-decoration: underline; 
-        }
-   
-        .transcription {
-            font-style: italic;
-                  }
-  
+    font-size: 1.5vw;
+    margin-top: 1em;
+    margin-bottom: .0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    text-decoration: underline;
+}
 
+.transcription {
+    font-style: italic;
+}

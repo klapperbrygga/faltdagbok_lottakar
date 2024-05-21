@@ -1550,33 +1550,23 @@
          </figure>
       </surface>
 
-      <surface ulx="0" uly="0" lrx="500" lry="321" xml:id="sida_101">
+      <surface xml:id="sida_101">
          <figure>
             <label>Översikt av arbetsåret 1/7 1944 - 30/6 1945</label>
-            <figDesc>
-               Slutet av fältdagboken och signering.
-            </figDesc>
             <graphic url="assets/img/documents/sida_101.jpg"> </graphic>
             <graphic url="../collection/img/sida_101.tiff"></graphic>
          </figure>
       </surface>
 
-      <surface ulx="0" uly="0" lrx="500" lry="321" xml:id="sida_102">
-         <zone ulx="0" uly="0" lrx="500" lry="321">
+      <surface xml:id="sida_102">
+         <figure>
+            <label>Översikt av arbetsåret 1/7 1944 - 30/6 1945</label>
+            <figDesc>
+               Slutet av tjänstgöringsdagboken och signering.
+            </figDesc>
             <graphic url="assets/img/documents/sida_102.jpg"> </graphic>
             <graphic url="../collection/img/sida_102.tiff"></graphic>
-         </zone>
-         <zone ulx="50" uly="20" lrx="210" lry="280">
-            <!-- left hand page -->
-         </zone>
-         <zone ulx="240" uly="25" lrx="400"
-            lry="280">
-            <!-- right hand page -->
-         </zone>
-         <zone ulx="90" uly="40" lrx="200" lry="225">
-            <!---
-            written part of left hand page -->
-         </zone>
+         </figure>
       </surface>
    </facsimile>
    <text>
@@ -2001,9 +1991,9 @@
             </div>
          </div>
 
-         <div type="6-14">
+         <div type="page" n="6-14" facs="sida_090">
             <gap reason="sampling">
-               <desc>Uteslutna i mån av tid och p.g.a information som delvis upprepas i följande
+               <desc>Ej transkriberade i mån av tid och p.g.a information som delvis upprepas i följande
                   rapport.</desc>
             </gap>
          </div>

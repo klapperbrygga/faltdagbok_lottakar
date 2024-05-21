@@ -117,7 +117,7 @@ text-indent: 2vw;
 	}
 
     .under {
-         text-underline-position: below;
+         text-decoration-line: underline;
     }
     
     a {

@@ -22,7 +22,7 @@ nav {
 }
 
 h2 {
-    padding: 1vw;
+    padding: 1vw; text-decoration: underline;
 }
 
 h3 {
@@ -116,6 +116,4 @@ text-indent: 2vw;
   width: 100%;
 	}
 
-    .under {
-         text-underline-position: below;
-    }
+  
